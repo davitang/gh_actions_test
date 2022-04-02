@@ -8,7 +8,7 @@ jobs:
       max-parallel: 1
       matrix:
         # Just test single python version
-        python-version: [3.9]
+        python-version: [3.7]
 
     steps:
       - name: Checkout repository
